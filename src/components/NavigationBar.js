@@ -11,9 +11,9 @@ const NavigationBar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link href="components/about-me">About Me</Nav.Link>
-                        <Nav.Link href="#skills">Skills</Nav.Link>
+                        <Nav.Link href="#aboutMe">About Me</Nav.Link>
                         <Nav.Link href="#projects">Projects</Nav.Link>
+                        <Nav.Link href="#github">Github</Nav.Link>
                         <Nav.Link href="#contact">Contact Me</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

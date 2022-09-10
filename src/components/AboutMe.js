@@ -37,16 +37,16 @@ const AboutMe = () => {
                             <Card.Text>
                                 <ul className="skillList">
                                     <li>
-                                        <Progress skill="HTML" progress="65"/>
-                                    </li>
-                                    <li>
-                                        <Progress skill="CSS" progress="45"/>
+                                        <Progress skill="HTML/CSS" progress="65"/>
                                     </li>
                                     <li>
                                         <Progress skill="Javascript" progress="25" />
                                     </li>
                                     <li>
                                         <Progress skill="React" progress="25" />
+                                    </li>
+                                    <li>
+                                        <Progress skill="Bootstrap" progress="30" />
                                     </li>
                                     <li>
                                         <Progress skill="Python" progress="75" />
