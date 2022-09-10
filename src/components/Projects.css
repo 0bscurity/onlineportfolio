@@ -1,0 +1,15 @@
+.customCard {
+    background: #282c34 !important;
+    color: azure;
+}
+
+.projectCard {
+    background: #58595B !important;
+    color: azure;
+    float: left;
+}
+
+.spaceEvenly {
+    display: flex;
+    justify-content: space-between;
+}

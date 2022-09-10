@@ -2,8 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
-import AboutMe from "./components/AboutMe";
 import NavigationBar from "./components/NavigationBar";
+import AboutMe from "./components/AboutMe";
+import Projects from "./components/Projects";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <main>
           <NavigationBar />
           <AboutMe />
+          <Projects />
       </main>
   );
 }

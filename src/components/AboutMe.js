@@ -11,7 +11,7 @@ const AboutMe = () => {
             <Row>
                 <Col sm={8}>
                     <Card className="customCard fw-dark shadow my-5" style={{ width: 'auto' }}>
-                        <Card.Body>
+                        <Card.Body className="m-4">
                             <Card.Title className="fw-bolder">
                                 <h1>HI,<br />I'M ANDREW</h1>
                             </Card.Title>
@@ -30,12 +30,19 @@ const AboutMe = () => {
                 </Col>
                 <Col sm={4}>
                     <Card className="customCard fw-dark shadow my-5" style={{width: 'auto'}}>
-                        <Card.Body>
+                        <Card.Body className="m-4">
                             <Card.Title>
                                 <h2 className="text-center">Skills</h2>
                             </Card.Title>
                             <Card.Text>
-                                <ul className="skillList">
+                                <ul className="skillList text-start">
+                                    <li>HTML/CSS</li>
+                                    <li>Javascript</li>
+                                    <li>Python</li>
+                                    <li>React</li>
+                                    <li>Bootstrap</li>
+                                </ul>
+                                {/*<ul className="skillList">
                                     <li>
                                         <Progress skill="HTML/CSS" progress="65"/>
                                     </li>
@@ -51,38 +58,13 @@ const AboutMe = () => {
                                     <li>
                                         <Progress skill="Python" progress="75" />
                                     </li>
-                                </ul>
-
-
-
+                                </ul>*/}
                             </Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>
             </Row>
         </Container>
-        /*<Container>
-            <Row>
-                <Col className="my-5">
-                    <h1 className="fw-bolder">HI,<br/>I'M ANDREW</h1>
-                    <div className="my-5">
-                        <p>
-                            &emsp;&emsp;Transitioning from middle school to high school, I performed a lead 3D designer role in a competitive
-                            FTC team from 2015 to 2017, designing dozens of parts using industry software such as Creo CAD.
-                            Over the next few years I dual-enrolled in community college, working on a Towson University Information
-                            Systems transfer program. During this time I gained different industry experience while supporting my studies and
-                            scholarships. Throughout my studies I experimented with many programming languages, including but not
-                            limited to Java, C++, C#, HTML, CSS, Javascript, and Python.<br /><br />
-                            &emsp;&emsp;After completing all degree-related coursework in 2021 my studies were put on pause to make ends
-                            meet, but my passion for programming has only grown.
-                        </p>
-                    </div>
-                </Col>
-                <Col className="my-5">
-
-                </Col>
-            </Row>
-        </Container>*/
     );
 };
 
