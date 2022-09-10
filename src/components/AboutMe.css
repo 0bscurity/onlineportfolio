@@ -6,3 +6,8 @@
 .skillList {
     list-style: none;
 }
+
+.progress-label {
+    float: left;
+    margin-right: 1em;
+}
