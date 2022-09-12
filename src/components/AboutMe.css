@@ -14,7 +14,9 @@
     list-style: none;
 }
 
-.spaceEvenly {
-    display: flex;
-    justify-content: space-between;
+.skillText {
+    margin: 1em;
+    font-size: large;
+    inline-size: 90px;
+    overflow: visible;
 }

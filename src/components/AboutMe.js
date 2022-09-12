@@ -9,7 +9,7 @@ const AboutMe = () => {
 
         <Container>
             <Row>
-                <Col sm={8}>
+                <Col md={8} sm={12}>
                     <Card className="customCard fw-dark shadow mt-5" style={{ width: 'auto' }}>
                         <Card.Body className="m-4">
                             <Card.Title className="fw-bolder">
@@ -28,20 +28,27 @@ const AboutMe = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col sm={4}>
-                    <Card className="customCard fw-dark shadow mt-5" style={{width: '100%'}}>
+                <Col md={4} sm={12}>
+                    <Card className="customCard fw-dark shadow mt-5" style={{width: 'auto'}}>
                         <Card.Body>
                             <Card.Title>
                                 <h2 className="m-4">Skills</h2>
                             </Card.Title>
                             <Card.Text>
-                                <ul className="skillList">
-                                    <Card className="skillCard spaceEvenly"><li>HTML/CSS</li></Card>
-                                    <Card className="skillCard spaceEvenly"><li>Javascript</li></Card>
-                                    <Card className="skillCard spaceEvenly"><li>Python</li></Card>
-                                    <Card className="skillCard spaceEvenly"><li>React</li></Card>
-                                    <Card className="skillCard spaceEvenly"><li>Bootstrap</li></Card>
-                                </ul>
+                                <div className="skillList m-3">
+                                    <Row>
+                                        <Col>
+                                            <Card className="skillCard"><p className="skillText">HTML/CSS</p></Card>
+                                            <Card className="skillCard"><p className="skillText">Javascript</p></Card>
+                                            <Card className="skillCard"><p className="skillText">Python</p></Card>
+                                        </Col>
+                                        <Col>
+                                            <Card className="skillCard"><p className="skillText">React</p></Card>
+                                            <Card className="skillCard"><p className="skillText">Bootstrap</p></Card>
+                                            <Card className="skillCard"><p className="skillText">Soft Skills</p></Card>
+                                        </Col>
+                                    </Row>
+                                </div>
                             </Card.Text>
                         </Card.Body>
                     </Card>
