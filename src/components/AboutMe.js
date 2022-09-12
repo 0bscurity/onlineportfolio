@@ -10,7 +10,7 @@ const AboutMe = () => {
         <Container>
             <Row>
                 <Col sm={8}>
-                    <Card className="customCard fw-dark shadow my-5" style={{ width: 'auto' }}>
+                    <Card className="customCard fw-dark shadow mt-5" style={{ width: 'auto' }}>
                         <Card.Body className="m-4">
                             <Card.Title className="fw-bolder">
                                 <h1>HI,<br />I'M ANDREW</h1>
@@ -29,36 +29,19 @@ const AboutMe = () => {
                     </Card>
                 </Col>
                 <Col sm={4}>
-                    <Card className="customCard fw-dark shadow my-5" style={{width: 'auto'}}>
-                        <Card.Body className="m-4">
+                    <Card className="customCard fw-dark shadow mt-5" style={{width: '100%'}}>
+                        <Card.Body>
                             <Card.Title>
-                                <h2 className="text-center">Skills</h2>
+                                <h2 className="m-4">Skills</h2>
                             </Card.Title>
                             <Card.Text>
-                                <ul className="skillList text-start">
-                                    <li>HTML/CSS</li>
-                                    <li>Javascript</li>
-                                    <li>Python</li>
-                                    <li>React</li>
-                                    <li>Bootstrap</li>
+                                <ul className="skillList">
+                                    <Card className="skillCard spaceEvenly"><li>HTML/CSS</li></Card>
+                                    <Card className="skillCard spaceEvenly"><li>Javascript</li></Card>
+                                    <Card className="skillCard spaceEvenly"><li>Python</li></Card>
+                                    <Card className="skillCard spaceEvenly"><li>React</li></Card>
+                                    <Card className="skillCard spaceEvenly"><li>Bootstrap</li></Card>
                                 </ul>
-                                {/*<ul className="skillList">
-                                    <li>
-                                        <Progress skill="HTML/CSS" progress="65"/>
-                                    </li>
-                                    <li>
-                                        <Progress skill="Javascript" progress="25" />
-                                    </li>
-                                    <li>
-                                        <Progress skill="React" progress="25" />
-                                    </li>
-                                    <li>
-                                        <Progress skill="Bootstrap" progress="30" />
-                                    </li>
-                                    <li>
-                                        <Progress skill="Python" progress="75" />
-                                    </li>
-                                </ul>*/}
                             </Card.Text>
                         </Card.Body>
                     </Card>

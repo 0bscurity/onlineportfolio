@@ -13,6 +13,7 @@ const NavigationBar = () => {
                     <Nav className="ms-auto">
                         <Nav.Link href="#aboutMe">About Me</Nav.Link>
                         <Nav.Link href="#projects">Projects</Nav.Link>
+                        <Nav.Link href="#resume">Resume</Nav.Link>
                         <Nav.Link href="#github">Github</Nav.Link>
                         <Nav.Link href="#contact">Contact Me</Nav.Link>
                     </Nav>

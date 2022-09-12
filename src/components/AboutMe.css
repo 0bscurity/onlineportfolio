@@ -3,15 +3,18 @@
     color: azure;
 }
 
+.skillCard {
+    background: #58595B !important;
+    color: azure;
+    margin: 1em;
+    text-align: center;
+}
+
 .skillList {
     list-style: none;
 }
 
-.progress-label {
-    float: left;
-    margin-right: 1em;
-}
-
-li {
-    margin-top: 1em;
+.spaceEvenly {
+    display: flex;
+    justify-content: space-between;
 }
