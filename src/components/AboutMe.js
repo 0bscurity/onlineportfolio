@@ -13,7 +13,7 @@ const AboutMe = () => {
                     <Card className="customCard fw-dark shadow mt-5" style={{ width: 'auto' }}>
                         <Card.Body className="m-4">
                             <Card.Title className="fw-bolder">
-                                <h1 id="aboutMe">HI,<br />I'M ANDREW</h1>
+                                <h1 id="home">HI,<br />I'M ANDREW</h1>
                             </Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Self-Taught Software Developer</Card.Subtitle>
                             <Card.Text className="my-4">

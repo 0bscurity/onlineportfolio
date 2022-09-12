@@ -3,3 +3,8 @@
     color: azure;
     float: left;
 }
+
+.spaceEvenly {
+    margin: 0 auto;
+    display: block;
+}
